@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="OpenLadder"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <MacroValues Count="1">
+      <Macro2 Name="LCLWidgetType" Value="gtk2"/>
+    </MacroValues>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+      <SharedMatrixOptions Count="2">
+        <Item1 ID="680563312911" Type="IDEMacro" MacroName="LCLWidgetType" Value="gtk"/>
+        <Item2 ID="697212343234" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="gtk2"/>
+      </SharedMatrixOptions>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="laz.virtualtreeview_package"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="OpenLadder.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickbit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="bitForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="doubleClickBit"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickcomment.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="commentForm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickcompare.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CompareForm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickflash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="flashForm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickmath.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="mathForm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickstore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="storeForm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclicktimer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="timerForm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="lad2pas.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="laddergraphunit.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="laddersymbol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LadderSymbol"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+      </Unit>
+      <Unit>
+        <Filename Value="projectunit.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="simulatorunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="simulatorUnit"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitformproject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="projectForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitFormProject"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitformsaveproject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="projectForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitnewprojectform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="newProjectForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitNewProjectForm"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitopenprojectform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitOpenProjectForm"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitsaveasform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="saveAsForm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="variableunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VariableUnit"/>
+      </Unit>
+      <Unit>
+        <Filename Value="xmlunit.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitaboutform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="aboutForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitAboutForm"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="OpenLadder"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);../LadderEditorV1/fpc-lib"/>
+      <Libraries Value="../LadderEditorV1/fpc-lib"/>
+      <OtherUnitFiles Value="../../EvsSimpleGraph-master;../LadderEditorV1/images;../LadderEditorV1/fpc-lib"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Optimizations>
+        <OptimizationLevel Value="0"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-vd"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+      <Item>
+        <Name Value="EEvsGraphInvalidOperation"/>
+      </Item>
+      <Item>
+        <Name Value="EReadError"/>
+      </Item>
+      <Item>
+        <Name Value="EResNotFound"/>
+      </Item>
+      <Item>
+        <Name Value="EListError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

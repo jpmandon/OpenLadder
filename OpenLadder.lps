@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="OpenLadder.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="49" Y="12"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitaboutform.pas"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitAboutForm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickbit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="bitForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="doubleClickBit"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickcomment.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="commentForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickcompare.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CompareForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickflash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="flashForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickmath.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="mathForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclickstore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="storeForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="doubleclicktimer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="timerForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="lad2pas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="laddergraphunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="laddersymbol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LadderSymbol"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <CursorPos X="61" Y="12"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="projectunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="simulatorunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="simulatorUnit"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitformproject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="projectForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitFormProject"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitformsaveproject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="projectForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="19" Y="35"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitnewprojectform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="newProjectForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitNewProjectForm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitopenprojectform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitOpenProjectForm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitsaveasform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="saveAsForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="variableunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VariableUnit"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="xmlunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/main.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2384"/>
+        <CursorPos X="20" Y="2404"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/laddergraphunit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="580"/>
+        <CursorPos Y="604"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/laddersymbol.pas"/>
+        <UnitName Value="LadderSymbol"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1235"/>
+        <CursorPos X="85" Y="1257"/>
+        <UsageCount Value="210"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/doubleclickbit.pas"/>
+        <ComponentName Value="bitForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="doubleClickBit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="102"/>
+        <CursorPos X="28" Y="106"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/xmlunit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="604"/>
+        <CursorPos Y="773"/>
+        <UsageCount Value="205"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/projectunit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="642"/>
+        <CursorPos X="58" Y="660"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/lad2pas.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="177"/>
+        <CursorPos Y="190"/>
+        <UsageCount Value="207"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/unitnewprojectform.pas"/>
+        <ComponentName Value="newProjectForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitNewProjectForm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="45"/>
+        <CursorPos X="29" Y="59"/>
+        <UsageCount Value="206"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/variableunit.pas"/>
+        <UnitName Value="VariableUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="6" Y="31"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/doubleclickcompare.pas"/>
+        <ComponentName Value="CompareForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="70" Y="87"/>
+        <UsageCount Value="203"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/doubleclickstore.pas"/>
+        <ComponentName Value="storeForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="12" Y="31"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/doubleclickcomment.pas"/>
+        <ComponentName Value="commentForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="61" Y="75"/>
+        <UsageCount Value="208"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/doubleclickmath.pas"/>
+        <ComponentName Value="mathForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos Y="61"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/simulatorunit.pas"/>
+        <UnitName Value="simulatorUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="140"/>
+        <CursorPos X="25" Y="155"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/doubleclicktimer.pas"/>
+        <ComponentName Value="timerForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="65"/>
+        <CursorPos Y="75"/>
+        <UsageCount Value="217"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/doubleclickflash.pas"/>
+        <ComponentName Value="flashForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="83"/>
+        <CursorPos X="90" Y="99"/>
+        <UsageCount Value="336"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/virtualgraphunit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="25" Y="22"/>
+        <UsageCount Value="123"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/projtree.pas"/>
+        <UnitName Value="projTree"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="95"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/listes.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="4" Y="16"/>
+        <UsageCount Value="80"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/unitformnewproject.pas"/>
+        <ComponentName Value="projectForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="60"/>
+        <CursorPos X="8" Y="73"/>
+        <UsageCount Value="30"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/images/lad2pas.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="34" Y="44"/>
+        <UsageCount Value="60"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/formhidden.pas"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formHidden"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="16"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../EvsSimpleGraph-master/usimplegraph.pas"/>
+        <UnitName Value="uSimpleGraph"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9104"/>
+        <CursorPos Y="9120"/>
+        <UsageCount Value="70"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/fpc-lib/unterminal.pas"/>
+        <UnitName Value="UnTerminal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="469"/>
+        <CursorPos Y="481"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../RASPBERRY-PI-PICO3/fpcupdeluxe/lazarus/lcl/extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1172"/>
+        <CursorPos X="3" Y="1173"/>
+        <UsageCount Value="41"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/runtime/runtime.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="94"/>
+        <CursorPos X="35" Y="118"/>
+        <UsageCount Value="100"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/runtime/bitunit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="79"/>
+        <CursorPos X="31" Y="86"/>
+        <UsageCount Value="28"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/runtime/varunit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="21" Y="25"/>
+        <UsageCount Value="100"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../RASPBERRY-PI-PICO3/fpcupdeluxe/lazarus/lcl/include/menuitem.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="288"/>
+        <CursorPos Y="302"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/fpc-lib/TermVT.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="387"/>
+        <CursorPos Y="399"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../RASPBERRY-PI-PICO3/fpcupdeluxe/lazarus/lcl/customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="142"/>
+        <CursorPos Y="155"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../LadderEditorV1/runtime/pipe.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitprojecttree.pas"/>
+        <UnitName Value="unitProjectTree"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="12"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitaboutform.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="aboutform.pas"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AboutForm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="12" Y="29"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../RASPBERRY-PI-PICO3/fpcupdeluxe/lazarus/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2385"/>
+        <CursorPos Y="2395"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitaboutform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="aboutForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitAboutForm"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="6" Y="42"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <Debugger>
+      <Backend Value="{76F89040-47B6-420C-9BD9-A463E6B27C4A}"/>
+    </Debugger>
+    <JumpHistory HistoryIndex="23">
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="12" Column="57"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="2404" Column="3" TopLine="2404"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="2404" Column="12" TopLine="2386"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="34" Column="8" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="35" Column="8" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="34" Column="8" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="35" Column="8" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="36" Column="8" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="38" Column="8" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="37" Column="8" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="12" Column="47"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="38" Column="8" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="37" Column="8" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="36" Column="8" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="35" Column="8" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="36" Column="8" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="37" Column="8" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="38" Column="8" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="39" Column="8" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="40" Column="8" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="41" Column="8" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="unitaboutform.pas"/>
+        <Caret Line="43" Column="8" TopLine="28"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+    <HistoryLists>
+      <List Name="LaunchingApplication" Type="File" Count="2">
+        <Item1 Value="/usr/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+        <Item2 Value="/usr/bin/gnome-terminal -t &apos;Lazarus Run Output&apos; -e &apos;$(LazarusDir)/tools/runwait.sh $(TargetCmdLine)&apos;"/>
+      </List>
+    </HistoryLists>
+  </ProjectSession>
+  <Debugging>
+    <Watches>
+      <Item>
+        <Expression Value="fresponselist"/>
+      </Item>
+      <Item>
+        <Expression Value="graphecurrent.objects"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>

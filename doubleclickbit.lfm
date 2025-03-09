@@ -1,0 +1,72 @@
+object bitForm: TbitForm
+  Left = 792
+  Height = 425
+  Top = 330
+  Width = 336
+  Caption = 'Contact'
+  ClientHeight = 425
+  ClientWidth = 336
+  DesignTimePPI = 125
+  OnActivate = FormActivate
+  object nameField: TEdit
+    Left = 24
+    Height = 36
+    Top = 32
+    Width = 288
+    TabOrder = 0
+    OnKeyPress = nameFieldKeyPress
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 19
+    Top = 8
+    Width = 47
+    Caption = 'Name'
+  end
+  object contactListBox: TListBox
+    Left = 24
+    Height = 170
+    Top = 104
+    Width = 288
+    ItemHeight = 0
+    TabOrder = 1
+    TopIndex = -1
+    OnClick = contactListBoxClick
+    OnDblClick = contactListBoxDblClick
+    OnKeyPress = contactListBoxKeyPress
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 19
+    Top = 80
+    Width = 53
+    Caption = 'Bit List'
+  end
+  object OKbutton: TButton
+    Left = 184
+    Height = 33
+    Top = 344
+    Width = 98
+    Caption = 'OK'
+    TabOrder = 2
+    OnClick = OKbuttonClick
+  end
+  object cancelButton: TButton
+    Left = 48
+    Height = 33
+    Top = 344
+    Width = 98
+    Caption = 'Cancel'
+    TabOrder = 3
+    OnClick = cancelButtonClick
+  end
+  object CheckBoxSystemBit: TCheckBox
+    Left = 24
+    Height = 23
+    Top = 280
+    Width = 110
+    Caption = 'System Bit'
+    TabOrder = 4
+    OnChange = CheckBoxSystemBitChange
+  end
+end
