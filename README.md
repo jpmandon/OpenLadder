@@ -2,7 +2,7 @@
 OpenLadder is a graphical tool use to generate binary code for microcontrollers. 
 The goal of this project is to give to the community a tool to learn and use Ladder langage with cheap electronics cards.
 It can be used for educational purpose or personal projects, the license is GPL V3.
-Be careful, OpenLadder 0.1 is a very early version, use it at your own risk and don't use it where security is necessary in indystrial processes for example.
+Be careful, OpenLadder 0.1 is a very new version, use it at your own risk and don't use it where security is necessary in industrial processes for example.
 
 OpenLadder principle:
 The Ladder network build with the designer is converted to pascal langage. 
