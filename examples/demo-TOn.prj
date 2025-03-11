@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <name>demo-TOn</name>
+  <blocs>
+    <bloc>MAIN</bloc>
+  </blocs>
+  <hardware>
+    <plc>Raspberry Pico</plc>
+    <IO>
+      <NAME>I1</NAME>
+      <GPIO>GP0</GPIO>
+      <TYPE>INPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>O1</NAME>
+      <GPIO>GP1</GPIO>
+      <TYPE>OUTPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <TIMER>
+      <NAME>TIMER1</NAME>
+      <PRESETON>20</PRESETON>
+      <PRESETOFF>20</PRESETOFF>
+      <TYPE>Ton</TYPE>
+    </TIMER>
+  </hardware>
+</project>

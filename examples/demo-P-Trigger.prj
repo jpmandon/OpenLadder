@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <name>demo-P-Trigger</name>
+  <blocs>
+    <bloc>MAIN</bloc>
+  </blocs>
+  <hardware>
+    <plc>Raspberry Pico</plc>
+    <IO>
+      <NAME>INTER</NAME>
+      <GPIO>GP0</GPIO>
+      <TYPE>INPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>LED1</NAME>
+      <GPIO>GP1</GPIO>
+      <TYPE>OUTPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>LED2</NAME>
+      <GPIO>GP2</GPIO>
+      <TYPE>OUTPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>LED3</NAME>
+      <GPIO>GP3</GPIO>
+      <TYPE>OUTPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <VAR>
+      <NAME>OUTPUT1</NAME>
+      <TYPE>PULSE</TYPE>
+      <COMMENT></COMMENT>
+    </VAR>
+    <VAR>
+      <NAME>MW0</NAME>
+      <TYPE>INT</TYPE>
+      <COMMENT></COMMENT>
+    </VAR>
+  </hardware>
+</project>

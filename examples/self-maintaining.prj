@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <name>self-maintaining</name>
+  <blocs>
+    <bloc>main</bloc>
+  </blocs>
+  <hardware>
+    <plc>Raspberry_Pico</plc>
+    <IO>
+      <NAME>setOn</NAME>
+      <GPIO>GP0</GPIO>
+      <TYPE>INPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>O1</NAME>
+      <GPIO>GP1</GPIO>
+      <TYPE>OUTPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>SetOff</NAME>
+      <GPIO>GP2</GPIO>
+      <TYPE>INPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>O2</NAME>
+      <GPIO>GP3</GPIO>
+      <TYPE>OUTPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <VAR>
+      <NAME>MW2</NAME>
+      <TYPE>BIT</TYPE>
+      <COMMENT></COMMENT>
+    </VAR>
+  </hardware>
+</project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <name>demo-flash</name>
+  <blocs>
+    <bloc>MAIN</bloc>
+    <bloc>Action1</bloc>
+  </blocs>
+  <hardware>
+    <plc>Raspberry Pico</plc>
+    <IO>
+      <NAME>I1</NAME>
+      <GPIO>GP0</GPIO>
+      <TYPE>INPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>O1</NAME>
+      <GPIO>GP1</GPIO>
+      <TYPE>OUTPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>O2</NAME>
+      <GPIO>GP2</GPIO>
+      <TYPE>OUTPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <IO>
+      <NAME>O3</NAME>
+      <GPIO>GP3</GPIO>
+      <TYPE>OUTPUT</TYPE>
+      <COMMENT></COMMENT>
+    </IO>
+    <TIMER>
+      <NAME>TIMER1</NAME>
+      <PRESETON>100</PRESETON>
+      <PRESETOFF>0</PRESETOFF>
+      <TYPE>Ton</TYPE>
+    </TIMER>
+    <TIMER>
+      <NAME>TIMER2</NAME>
+      <PRESETON>50</PRESETON>
+      <PRESETOFF>0</PRESETOFF>
+      <TYPE>Toff</TYPE>
+    </TIMER>
+    <TIMER>
+      <NAME>FLASH</NAME>
+      <PRESETON>30</PRESETON>
+      <PRESETOFF>30</PRESETOFF>
+      <TYPE>TFlash</TYPE>
+    </TIMER>
+  </hardware>
+</project>
