@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bloc>
+  <symbol id="3">
+    <classe>TPowerRail</classe>
+    <centerX>96</centerX>
+    <centerY>96</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="7">
+    <classe>TBit</classe>
+    <centerX>280</centerX>
+    <centerY>96</centerY>
+    <allias>setOn</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="10">
+    <classe>TPowerRail</classe>
+    <centerX>96</centerX>
+    <centerY>272</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="14">
+    <classe>TBit</classe>
+    <centerX>280</centerX>
+    <centerY>272</centerY>
+    <allias>O1</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="18">
+    <classe>TBit</classe>
+    <centerX>280</centerX>
+    <centerY>176</centerY>
+    <allias>O1</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="21">
+    <classe>TCoil</classe>
+    <centerX>824</centerX>
+    <centerY>96</centerY>
+    <allias>O1</allias>
+    <fonction>coilNO</fonction>
+  </symbol>
+  <symbol id="24">
+    <classe>TCoil</classe>
+    <centerX>536</centerX>
+    <centerY>272</centerY>
+    <allias>O2</allias>
+    <fonction>coilNO</fonction>
+  </symbol>
+  <symbol id="28">
+    <classe>TBit</classe>
+    <centerX>520</centerX>
+    <centerY>96</centerY>
+    <allias>SetOff</allias>
+    <fonction>contactNC</fonction>
+  </symbol>
+  <symbol id="29">
+    <classe>TComment</classe>
+    <centerX>72</centerX>
+    <centerY>32</centerY>
+    <allias>SetOn on to activate O1 Coil</allias>
+    <fonction>comment</fonction>
+    <background>15780518</background>
+    <text>536870912</text>
+    <width>360</width>
+  </symbol>
+  <symbol id="30">
+    <classe>TComment</classe>
+    <centerX>520</centerX>
+    <centerY>32</centerY>
+    <allias>SetOff on to deactivate O1 Coil</allias>
+    <fonction>comment</fonction>
+    <background>65535</background>
+    <text>536870912</text>
+    <width>360</width>
+  </symbol>
+  <wire id="31">
+    <startSymbol>3</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>7</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="32">
+    <startSymbol>10</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>14</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="33">
+    <startSymbol>3</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>18</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="34">
+    <startSymbol>14</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>24</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="35">
+    <startSymbol>7</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>28</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="36">
+    <startSymbol>28</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>21</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="37">
+    <startSymbol>18</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>28</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+</bloc>

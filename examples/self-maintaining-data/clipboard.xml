@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bloc>
+  <symbol id="27">
+    <classe>TBit</classe>
+    <centerX>520</centerX>
+    <centerY>96</centerY>
+    <allias>SetOff</allias>
+    <fonction>contactNC</fonction>
+  </symbol>
+  <symbol id="7">
+    <classe>TBit</classe>
+    <centerX>280</centerX>
+    <centerY>96</centerY>
+    <allias>setOn</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="18">
+    <classe>TBit</classe>
+    <centerX>280</centerX>
+    <centerY>176</centerY>
+    <allias>O1</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="3">
+    <classe>TPowerRail</classe>
+    <centerX>96</centerX>
+    <centerY>96</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="23">
+    <classe>TCoil</classe>
+    <centerX>536</centerX>
+    <centerY>272</centerY>
+    <allias>O2</allias>
+    <fonction>coilNO</fonction>
+  </symbol>
+  <symbol id="14">
+    <classe>TBit</classe>
+    <centerX>280</centerX>
+    <centerY>272</centerY>
+    <allias>O1</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="10">
+    <classe>TPowerRail</classe>
+    <centerX>96</centerX>
+    <centerY>272</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <wire id="34">
+    <startSymbol>7</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>27</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="35">
+    <startSymbol>18</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>27</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="30">
+    <startSymbol>3</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>7</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="32">
+    <startSymbol>3</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>18</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="33">
+    <startSymbol>14</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>23</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="31">
+    <startSymbol>10</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>14</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+</bloc>
