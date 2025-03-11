@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bloc>
+  <symbol id="7">
+    <classe>TCompare</classe>
+    <centerX>344</centerX>
+    <centerY>96</centerY>
+    <allias>GRAFCET=0 ?</allias>
+    <fonction>equals</fonction>
+    <var1>GRAFCET</var1>
+    <var2>0</var2>
+  </symbol>
+  <symbol id="40">
+    <classe>TBit</classe>
+    <centerX>176</centerX>
+    <centerY>96</centerY>
+    <allias>I1</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="3">
+    <classe>TPowerRail</classe>
+    <centerX>24</centerX>
+    <centerY>96</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="16">
+    <classe>TCompare</classe>
+    <centerX>344</centerX>
+    <centerY>280</centerY>
+    <allias>GRAFCET=10 ?</allias>
+    <fonction>equals</fonction>
+    <var1>GRAFCET</var1>
+    <var2>10</var2>
+  </symbol>
+  <symbol id="44">
+    <classe>TBit</classe>
+    <centerX>176</centerX>
+    <centerY>280</centerY>
+    <allias>I2</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="12">
+    <classe>TPowerRail</classe>
+    <centerX>24</centerX>
+    <centerY>280</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="25">
+    <classe>TCompare</classe>
+    <centerX>344</centerX>
+    <centerY>456</centerY>
+    <allias>GRAFCET=20 ?</allias>
+    <fonction>equals</fonction>
+    <var1>GRAFCET</var1>
+    <var2>20</var2>
+  </symbol>
+  <symbol id="48">
+    <classe>TBit</classe>
+    <centerX>168</centerX>
+    <centerY>456</centerY>
+    <allias>I3</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="21">
+    <classe>TPowerRail</classe>
+    <centerX>24</centerX>
+    <centerY>456</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="34">
+    <classe>TBit</classe>
+    <centerX>776</centerX>
+    <centerY>296</centerY>
+    <allias>RESET</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="30">
+    <classe>TPowerRail</classe>
+    <centerX>616</centerX>
+    <centerY>296</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="65">
+    <classe>TStore</classe>
+    <centerX>496</centerX>
+    <centerY>544</centerY>
+    <allias>GRAFCET:=30</allias>
+    <fonction>store</fonction>
+    <var1>30</var1>
+    <var2>GRAFCET</var2>
+  </symbol>
+  <wire id="68">
+    <startSymbol>40</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>7</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="67">
+    <startSymbol>3</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>40</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="70">
+    <startSymbol>44</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>16</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="69">
+    <startSymbol>12</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>44</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="72">
+    <startSymbol>48</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>25</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="71">
+    <startSymbol>21</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>48</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="66">
+    <startSymbol>30</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>34</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="73">
+    <startSymbol>25</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>65</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+</bloc>
