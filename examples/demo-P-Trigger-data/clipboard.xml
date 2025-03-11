@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bloc>
+  <symbol id="7">
+    <classe>TBit</classe>
+    <centerX>240</centerX>
+    <centerY>216</centerY>
+    <allias>INTER</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="3">
+    <classe>TPowerRail</classe>
+    <centerX>88</centerX>
+    <centerY>216</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="16">
+    <classe>TBit</classe>
+    <centerX>232</centerX>
+    <centerY>296</centerY>
+    <allias>OUTPUT1</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="12">
+    <classe>TPowerRail</classe>
+    <centerX>88</centerX>
+    <centerY>296</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="25">
+    <classe>TCompare</classe>
+    <centerX>720</centerX>
+    <centerY>216</centerY>
+    <allias>MW0=10 ?</allias>
+    <fonction>equals</fonction>
+    <var1>MW0</var1>
+    <var2>10</var2>
+  </symbol>
+  <symbol id="21">
+    <classe>TPowerRail</classe>
+    <centerX>560</centerX>
+    <centerY>216</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="34">
+    <classe>TCompare</classe>
+    <centerX>720</centerX>
+    <centerY>304</centerY>
+    <allias>MW0=20 ?</allias>
+    <fonction>equals</fonction>
+    <var1>MW0</var1>
+    <var2>20</var2>
+  </symbol>
+  <symbol id="30">
+    <classe>TPowerRail</classe>
+    <centerX>560</centerX>
+    <centerY>304</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="43">
+    <classe>TCompare</classe>
+    <centerX>720</centerX>
+    <centerY>384</centerY>
+    <allias>MW0=30 ?</allias>
+    <fonction>equals</fonction>
+    <var1>MW0</var1>
+    <var2>30</var2>
+  </symbol>
+  <symbol id="39">
+    <classe>TPowerRail</classe>
+    <centerX>560</centerX>
+    <centerY>384</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="55">
+    <classe>TStore</classe>
+    <centerX>376</centerX>
+    <centerY>464</centerY>
+    <allias>MW0:=0</allias>
+    <fonction>store</fonction>
+    <var1>0</var1>
+    <var2>MW0</var2>
+  </symbol>
+  <symbol id="52">
+    <classe>TCompare</classe>
+    <centerX>232</centerX>
+    <centerY>464</centerY>
+    <allias>MW0=40 ?</allias>
+    <fonction>equals</fonction>
+    <var1>MW0</var1>
+    <var2>40</var2>
+  </symbol>
+  <symbol id="48">
+    <classe>TPowerRail</classe>
+    <centerX>88</centerX>
+    <centerY>464</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <wire id="60">
+    <startSymbol>3</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>7</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="61">
+    <startSymbol>12</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>16</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="62">
+    <startSymbol>21</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>25</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="63">
+    <startSymbol>30</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>34</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="64">
+    <startSymbol>39</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>43</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="65">
+    <startSymbol>52</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>55</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="66">
+    <startSymbol>48</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>52</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+</bloc>

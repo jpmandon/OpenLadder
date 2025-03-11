@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bloc>
+  <symbol id="3">
+    <classe>TPowerRail</classe>
+    <centerX>88</centerX>
+    <centerY>216</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="7">
+    <classe>TBit</classe>
+    <centerX>240</centerX>
+    <centerY>216</centerY>
+    <allias>INTER</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="10">
+    <classe>TFrontCoil</classe>
+    <centerX>392</centerX>
+    <centerY>216</centerY>
+    <allias>OUTPUT1</allias>
+    <fonction>BobineP</fonction>
+  </symbol>
+  <symbol id="13">
+    <classe>TPowerRail</classe>
+    <centerX>88</centerX>
+    <centerY>296</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="17">
+    <classe>TBit</classe>
+    <centerX>232</centerX>
+    <centerY>296</centerY>
+    <allias>OUTPUT1</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="20">
+    <classe>TMath</classe>
+    <centerX>384</centerX>
+    <centerY>296</centerY>
+    <allias>MW0=MW0+10</allias>
+    <fonction>add</fonction>
+    <var1>MW0</var1>
+    <var2>10</var2>
+    <var3>MW0</var3>
+  </symbol>
+  <symbol id="23">
+    <classe>TPowerRail</classe>
+    <centerX>560</centerX>
+    <centerY>216</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="27">
+    <classe>TCompare</classe>
+    <centerX>720</centerX>
+    <centerY>216</centerY>
+    <allias>MW0=10 ?</allias>
+    <fonction>equals</fonction>
+    <var1>MW0</var1>
+    <var2>10</var2>
+  </symbol>
+  <symbol id="30">
+    <classe>TCoil</classe>
+    <centerX>872</centerX>
+    <centerY>216</centerY>
+    <allias>LED1</allias>
+    <fonction>coilNO</fonction>
+  </symbol>
+  <symbol id="33">
+    <classe>TPowerRail</classe>
+    <centerX>560</centerX>
+    <centerY>304</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="37">
+    <classe>TCompare</classe>
+    <centerX>720</centerX>
+    <centerY>304</centerY>
+    <allias>MW0=20 ?</allias>
+    <fonction>equals</fonction>
+    <var1>MW0</var1>
+    <var2>20</var2>
+  </symbol>
+  <symbol id="40">
+    <classe>TCoil</classe>
+    <centerX>872</centerX>
+    <centerY>304</centerY>
+    <allias>LED2</allias>
+    <fonction>coilNO</fonction>
+  </symbol>
+  <symbol id="43">
+    <classe>TPowerRail</classe>
+    <centerX>560</centerX>
+    <centerY>384</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="47">
+    <classe>TCompare</classe>
+    <centerX>720</centerX>
+    <centerY>384</centerY>
+    <allias>MW0=30 ?</allias>
+    <fonction>equals</fonction>
+    <var1>MW0</var1>
+    <var2>30</var2>
+  </symbol>
+  <symbol id="50">
+    <classe>TCoil</classe>
+    <centerX>872</centerX>
+    <centerY>384</centerY>
+    <allias>LED3</allias>
+    <fonction>coilNO</fonction>
+  </symbol>
+  <symbol id="53">
+    <classe>TPowerRail</classe>
+    <centerX>88</centerX>
+    <centerY>464</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="57">
+    <classe>TCompare</classe>
+    <centerX>232</centerX>
+    <centerY>464</centerY>
+    <allias>MW0=40 ?</allias>
+    <fonction>equals</fonction>
+    <var1>MW0</var1>
+    <var2>40</var2>
+  </symbol>
+  <symbol id="60">
+    <classe>TStore</classe>
+    <centerX>376</centerX>
+    <centerY>464</centerY>
+    <allias>MW0:=0</allias>
+    <fonction>store</fonction>
+    <var1>0</var1>
+    <var2>MW0</var2>
+  </symbol>
+  <symbol id="61">
+    <classe>TComment</classe>
+    <centerX>128</centerX>
+    <centerY>112</centerY>
+    <allias>For each rising edge, MW0 is incremented by 10</allias>
+    <fonction>comment</fonction>
+    <background>65535</background>
+    <text>536870912</text>
+    <width>344</width>
+  </symbol>
+  <symbol id="62">
+    <classe>TComment</classe>
+    <centerX>648</centerX>
+    <centerY>128</centerY>
+    <allias>each ouput is driven for a specific value of MW0</allias>
+    <fonction>comment</fonction>
+    <background>16776960</background>
+    <text>536870912</text>
+    <width>216</width>
+  </symbol>
+  <symbol id="63">
+    <classe>TComment</classe>
+    <centerX>160</centerX>
+    <centerY>392</centerY>
+    <allias>When MW0=40, MW0 is set to 0</allias>
+    <fonction>comment</fonction>
+    <background>54271</background>
+    <text>536870912</text>
+    <width>272</width>
+  </symbol>
+  <symbol id="64">
+    <classe>TComment</classe>
+    <centerX>320</centerX>
+    <centerY>40</centerY>
+    <allias>This is a state machine made with OpenLadder</allias>
+    <fonction>comment</fonction>
+    <background>6842598</background>
+    <text>16777215</text>
+    <width>416</width>
+  </symbol>
+  <wire id="65">
+    <startSymbol>3</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>7</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="66">
+    <startSymbol>7</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>10</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="67">
+    <startSymbol>17</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>20</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="68">
+    <startSymbol>13</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>17</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="69">
+    <startSymbol>23</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>27</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="70">
+    <startSymbol>27</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>30</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="71">
+    <startSymbol>33</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>37</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="72">
+    <startSymbol>37</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>40</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="73">
+    <startSymbol>43</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>47</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="74">
+    <startSymbol>47</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>50</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="75">
+    <startSymbol>57</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>60</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="76">
+    <startSymbol>53</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>57</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+</bloc>
