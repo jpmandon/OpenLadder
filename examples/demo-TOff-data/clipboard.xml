@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bloc>
+  <symbol id="7">
+    <classe>TBit</classe>
+    <centerX>264</centerX>
+    <centerY>104</centerY>
+    <allias>I1</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="3">
+    <classe>TPowerRail</classe>
+    <centerX>88</centerX>
+    <centerY>104</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <symbol id="19">
+    <classe>TCoil</classe>
+    <centerX>456</centerX>
+    <centerY>200</centerY>
+    <allias>O1</allias>
+    <fonction>coilNO</fonction>
+  </symbol>
+  <symbol id="16">
+    <classe>TBit</classe>
+    <centerX>264</centerX>
+    <centerY>200</centerY>
+    <allias>TIMER2</allias>
+    <fonction>contactNO</fonction>
+  </symbol>
+  <symbol id="12">
+    <classe>TPowerRail</classe>
+    <centerX>88</centerX>
+    <centerY>200</centerY>
+    <allias>pwr-0</allias>
+    <fonction>powerRail</fonction>
+  </symbol>
+  <wire id="20">
+    <startSymbol>3</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>7</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="21">
+    <startSymbol>16</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>19</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+  <wire id="22">
+    <startSymbol>12</startSymbol>
+    <symbolStartType>output</symbolStartType>
+    <endSymbol>16</endSymbol>
+    <symbolEndType>input</symbolEndType>
+  </wire>
+</bloc>
