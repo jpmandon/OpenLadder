@@ -21,6 +21,8 @@ A set of tools can be used for the first version of OpenLadder:
 a set of minimal examples is available in the examples folder.
 
 ### Videos:
-[Demonstration of Timer On]( https://youtu.be/gES8NdL25Og) 
+[Demonstration of Timer On]( https://youtu.be/gES8NdL25Og)
+
 [Demonstration of Timer Off and compilation for Raspberry Pico]( https://youtu.be/bnjqfyaW9Mg)
+
 
